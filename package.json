@@ -1,0 +1,35 @@
+{
+  "name": "crm_graphql",
+  "version": "1.0.0",
+  "description": "crm graphql",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ecarinagr5/crm_nextjs.git"
+  },
+  "keywords": [
+    "react",
+    "js",
+    "next",
+    "js"
+  ],
+  "author": "Carina Gonzalez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ecarinagr5/crm_nextjs/issues"
+  },
+  "homepage": "https://github.com/ecarinagr5/crm_nextjs#readme",
+  "dependencies": {
+    "apollo": "^2.33.6",
+    "apollo-server": "^3.4.0",
+    "graphql": "^15.6.1",
+    "server": "^1.0.36"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
