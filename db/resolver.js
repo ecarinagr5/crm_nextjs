@@ -1,7 +1,10 @@
 //resolver van hacer siempre funciones
 const resolvers = {
   Query: {
-    /* obtenerCurso: () => "algo",*/
+    obtenerCurso: () => "Algo",
+  },
+  Mutation: {
+    nuevoUsuario: () => "Creando nuevo usuario",
   },
 };
 
